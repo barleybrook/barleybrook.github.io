@@ -185,7 +185,7 @@ Primary use:
 
 /*---------------------------------------------*/
 .s2-txt1 {
-  font-family: Poppins-Medium;
+  font-family: Cormorant Garamond;
   font-size: 15px;
   color: #3F3F3F;
   line-height: 1.2;
@@ -198,8 +198,8 @@ Primary use:
 
 /*---------------------------------------------*/
 .m2-txt1 {
-  font-family: Poppins-Regular;
-  font-size: 24px;
+  font-family: Cormorant Garamond;
+  font-size: 18px;
   color: #626262;
   line-height: 1.2;
 }
@@ -209,8 +209,8 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: PlayfairDisplay-BlackItalic;
-  font-size: 90px;
+  font-family: Cormorant Garamond;
+  font-size: 42px;
   color: #3F3F3F;
   line-height: 1.1;
 }
@@ -526,4 +526,14 @@ Primary use:
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+
+a:link {
+    color: #78C091;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
 }
