@@ -96,7 +96,7 @@ Primary use:
   right: 82px;
   pointer-events: none;
 
-  font-family: Poppins-Medium;
+  font-family: Cormorant Garamond;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
@@ -105,10 +105,10 @@ Primary use:
   visibility: hidden;
   opacity: 0;
 
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  transition: opacity 0.4s;
+  -webkit-transition: opacity 1.2s;
+  -o-transition: opacity 1.2s;
+  -moz-transition: opacity 1.2s;
+  transition: opacity 1.2s;
 }
 
 .alert-validate::after {
@@ -314,17 +314,6 @@ Primary use:
   max-width: 100%;
 }
 
-/*---------------------------------------------*/
-.how-btn1 {
-  padding: 0 15px;
-  background-color: #fff;
-  border-radius: 25px;
-}
-
-.how-btn1:hover {
-  background-color: #555555;
-  color: #fff;
-}
 
 /*---------------------------------------------*/
 .how-social {
@@ -536,4 +525,30 @@ a:link {
 /* mouse over link */
 a:hover {
     color: hotpink;
+}
+
+/* Style all font awesome icons */
+.fa-instagram {
+    color: #3F3F3F;
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-envelope {
+    color: #3F3F3F !important;
+    padding: 20px;
+    font-size: 28px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
 }
